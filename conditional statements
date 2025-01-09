@@ -1,0 +1,53 @@
+Conditional statements
+--used to decide whether the code has to be executed or skipped based only when the given condition is true
+--to make the set of instructions execute only when the condition is true. 
+--it executes in a sequence I.e, line by line
+Block of code: set of instructions:
+--It will execute only when the specific condition is true.
+Condition: An expression that evaluates a result in the form of true or false.
+Example: 
+        let a=4
+        let b=5
+        if(a<b){
+            document.write("hello jayadeep",",<br>")
+        }
+        document.write("brilliant me!!")
+Output: 
+hello jayadeep
+brilliant me!!
+Ex: console.log(5>6)
+--Methods:
+1.If statement
+2.If-else
+3.Else-if
+4.Switch
+5.Ternary operator
+
+If: Only one possible condition . If the condition is true then it will execute, otherwise it will be skipped.
+Syntax:
+If(condition){
+--block of code //executed only when the condition is satisfied
+}
+// let a=4
+        // let b=5
+        // if(a<b){
+        //     document.write("hello jayadeep",",<br>")
+        // }
+        // document.write("brilliant me!!")
+        // let age=prompt("Enter your age")
+        // let name=prompt("Enter your name")
+        // if(age<18){
+        //     alert(name+" ,you are too young to marry")
+        // }else if(age>35){
+        //     alert(name+" ,you are too old to marry")
+        // }else{
+        //     alert(name+" ,you are eligible to marry")
+        // }
+        // alert("Thank you!")
+        a=prompt("enter score A")
+        b=prompt("enter score B")
+        if((a>300 || b>300) && (a+b)<500){
+            alert("can team up")
+        }else{
+            alert("can't team up")
+        }
